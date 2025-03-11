@@ -13,7 +13,8 @@ Currently, two official plugins are available:
 npm create vite@latest clothes-shop-client-side -- --template react-ts
 cd clothes-shop-client-side
 npm install
-npm install tailwindcss @tailwindcss/vite
+npm install -D tailwindcss@3 postcss autoprefixer
+npx tailwindcss init -p
 ```
 
 
@@ -58,5 +59,3 @@ export default tseslint.config({
   },
 })
 ```
-
-# clothes-shop-client-side
